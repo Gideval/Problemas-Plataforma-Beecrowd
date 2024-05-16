@@ -1,0 +1,20 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string[] valor = Console.ReadLine().Split(' ');
+        int A = Int32.Parse(valor[0]);
+        int B = Int32.Parse(valor[1]);
+        int C = Int32.Parse(valor[2]);
+        
+        int maiorAB = (A + B + Math.Abs(A - B)) / 2;
+        int maior = (maiorAB + C + Math.Abs(maiorAB - C)) / 2;
+        
+        Console.WriteLine ($"{maior} eh o maior");
+    }
+}

@@ -1,0 +1,29 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+using System.Globalization;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string[] valores = Console.ReadLine().Split(' ');
+        double A, B, C;
+        A = Convert.ToDouble(valores[0], CultureInfo.InvariantCulture);
+        B = Convert.ToDouble(valores[1], CultureInfo.InvariantCulture);
+        C = Convert.ToDouble(valores[2], CultureInfo.InvariantCulture);
+        
+        if (A + B > C & A + C > B & B + C > A)
+        {
+            double perimetro = A + B + C;
+            Console.WriteLine ($"Perimetro = {perimetro.ToString("F1", CultureInfo.InvariantCulture)}");
+        }
+        else
+        {
+            double area = ((A + B) / 2) * C;
+            Console.WriteLine ($"Area = {area.ToString("F1", CultureInfo.InvariantCulture)}");
+        }
+    
+    }
+}

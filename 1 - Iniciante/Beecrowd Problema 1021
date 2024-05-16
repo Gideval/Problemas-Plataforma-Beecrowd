@@ -1,0 +1,57 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+using System.Globalization;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        double valor, cem, cinquenta, vinte, dez, cinco, dois, onec, cinquentac, vintecincoc, dezc, cincoc, umc, resto;
+        
+        valor = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
+        
+        Console.WriteLine("NOTAS:");
+        cem = valor / 100;
+        resto = valor % 100;
+        Console.WriteLine((int)cem + " nota(s) de R$ 100.00");
+        cinquenta = resto / 50;
+        resto = resto % 50;
+        Console.WriteLine((int)cinquenta + " nota(s) de R$ 50.00");
+        vinte = resto / 20;
+        resto = resto % 20;
+        Console.WriteLine((int)vinte + " nota(s) de R$ 20.00");
+        dez = resto / 10;
+        resto = resto % 10;
+        Console.WriteLine((int)dez + " nota(s) de R$ 10.00");
+        cinco = resto / 5;
+        resto = resto % 5;
+        Console.WriteLine((int)cinco + " nota(s) de R$ 5.00");
+        dois = resto / 2;
+        resto = resto % 2;
+        Console.WriteLine((int)dois + " nota(s) de R$ 2.00");
+        
+        Console.WriteLine("MOEDAS:");
+        onec = resto / 1;
+        resto = resto % 1;
+        Console.WriteLine((int)onec + " moeda(s) de R$ 1.00");
+        resto = resto * 100.0;
+        cinquentac = resto / 50;
+        resto = resto % 50;
+        Console.WriteLine((int)cinquentac + " moeda(s) de R$ 0.50");
+        vintecincoc = resto / 25;
+        resto = resto % 25;
+        Console.WriteLine((int)vintecincoc + " moeda(s) de R$ 0.25");
+        dezc = resto / 10;
+        resto = resto % 10;
+        Console.WriteLine((int)dezc + " moeda(s) de R$ 0.10");
+        cincoc = resto / 5;
+        resto = resto % 5;
+        Console.WriteLine((int)cincoc + " moeda(s) de R$ 0.05");
+        umc = resto / 1;
+        Console.WriteLine((int)umc + " moeda(s) de R$ 0.01");
+        
+        
+    }
+}

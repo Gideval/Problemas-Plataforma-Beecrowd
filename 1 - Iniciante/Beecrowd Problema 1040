@@ -1,0 +1,56 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+using System.Globalization;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string[] numeros = Console.ReadLine().Split(' ');
+        
+        double n1, n2, n3, n4, media;
+        
+        n1 = Convert.ToDouble(numeros[0], CultureInfo.InvariantCulture);
+        n2 = Convert.ToDouble(numeros[1], CultureInfo.InvariantCulture);
+        n3 = Convert.ToDouble(numeros[2], CultureInfo.InvariantCulture);
+        n4 = Convert.ToDouble(numeros[3], CultureInfo.InvariantCulture);
+        
+        media = ((n1 * 2) + (n2 * 3) + (n3 * 4) + (n4 * 1)) / 10.0;
+        
+        if(media >= 7.0)
+        {
+            Console.WriteLine ($"Media: {media.ToString("F1", CultureInfo.InvariantCulture)}");
+            Console.WriteLine ("Aluno aprovado.");
+        }
+        else if(media < 5.0)
+        {
+            Console.WriteLine ($"Media: {media.ToString("F1", CultureInfo.InvariantCulture)}");
+            Console.WriteLine ("Aluno reprovado.");
+        }
+        else
+        {
+            Console.WriteLine ($"Media: {media.ToString("F1", CultureInfo.InvariantCulture)}");
+            Console.WriteLine("Aluno em exame.");
+            
+            double exame = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine($"Nota do exame: {exame.ToString("F1", CultureInfo.InvariantCulture)}");
+            
+            media = (media + exame) / 2.0;
+            
+            if(media >= 5.0)
+            {
+                Console.WriteLine ("Aluno aprovado.");
+                Console.WriteLine($"Media final: {media.ToString("F1", CultureInfo.InvariantCulture)}");
+            }
+            else
+            {
+                Console.WriteLine ("Aluno reprovado.");
+                Console.WriteLine($"Media final: {media.ToString("F1", CultureInfo.InvariantCulture)}");
+            }
+        }
+        
+        
+    }
+}

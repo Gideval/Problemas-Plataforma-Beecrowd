@@ -1,0 +1,18 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+using System.Globalization;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int km = Int32.Parse(Console.ReadLine());
+        double litros = Convert.ToDouble(Console.ReadLine(), CultureInfo.InvariantCulture);
+        
+        double resultado = km / litros;
+        
+        Console.WriteLine($"{resultado.ToString("F3", CultureInfo.InvariantCulture)} km/l");
+    }
+}

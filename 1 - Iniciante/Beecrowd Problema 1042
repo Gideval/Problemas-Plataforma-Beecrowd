@@ -1,0 +1,66 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string[] valores = Console.ReadLine().Split(' ');
+        int a, b, c, menor, meio, maior;
+        a = Convert.ToInt32(valores[0]);
+        b = Convert.ToInt32(valores[1]);
+        c = Convert.ToInt32(valores[2]);
+        
+        if(a > b & a > c)
+        {
+            maior = a;
+            if(b > c)
+            {
+                meio = b;
+                menor = c;
+            }
+            else
+            {
+                meio = c;
+                menor = b;
+            }
+        }
+        else if(b > a & b > c)
+        {
+            maior = b;
+            if(a > c)
+            {
+                meio = a;
+                menor = c;
+            }
+            else
+            {
+                meio = c;
+                menor = a;
+            }
+        }
+        else
+        {
+            maior = c;
+            if(a > b)
+            {
+                meio = a;
+                menor = b;
+            }
+            else
+            {
+                meio = b;
+                menor = a;
+            }
+        }
+        Console.WriteLine (menor);
+        Console.WriteLine (meio);
+        Console.WriteLine (maior);
+        Console.WriteLine ( );
+        Console.WriteLine (valores[0]);
+        Console.WriteLine (valores[1]);
+        Console.WriteLine (valores[2]);
+    }
+}

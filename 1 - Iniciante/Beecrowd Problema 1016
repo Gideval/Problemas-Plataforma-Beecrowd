@@ -1,0 +1,16 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int distancia = Int32.Parse(Console.ReadLine());
+        
+        int tempo = distancia * 2;
+        
+        Console.WriteLine($"{tempo} minutos");
+    }
+}

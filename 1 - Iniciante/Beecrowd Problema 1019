@@ -1,0 +1,23 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int tempo = int.Parse(Console.ReadLine());
+        
+        int hora, minuto, segundos, resto;
+        
+        hora = tempo / 3600;
+        resto = tempo % 3600;
+        
+        minuto = resto / 60;
+        
+        segundos = resto % 60;
+        
+        Console.WriteLine($"{hora}:{minuto}:{segundos}");
+    }
+}
