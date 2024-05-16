@@ -1,2 +1,3 @@
 # Problemas-Plataforma-Beecrowd
-Repositório para os desafios da plataforma Beecrowd
+Este repositório tem como finalidade armazenar os desafios resolvidos na plataforma Beecrowd, até o momento, foram resolvidos alguns problemas da categoria Iniciante.
+
