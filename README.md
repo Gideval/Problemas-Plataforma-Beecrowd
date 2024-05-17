@@ -1,3 +1,3 @@
 # Problemas-Plataforma-Beecrowd
-Este repositório tem como finalidade armazenar os desafios resolvidos na plataforma Beecrowd, até o momento, foram resolvidos alguns problemas da categoria Iniciante.
+Este repositório tem como objetivo armazenar as soluções dos desafios resolvidos na plataforma Beecrowd. Até o momento, foram resolvidos diversos problemas da categoria Iniciante. A linguagem utilizada para as resoluções é C#.
 
