@@ -55,7 +55,7 @@ class URI
 }
 
 /*
-Versão aceita pela plataforma para 
+Versão aceita pela plataforma devido a versão do compilador do C# 
 C# (mono 5.10.1.20)
 
 using System;
