@@ -1,0 +1,14 @@
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\Bee1478.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\Bee1478.AssemblyInfoInputs.cache
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\Bee1478.AssemblyInfo.cs
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\Bee1478.csproj.CoreCompileInputs.cache
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\bin\Debug\net10.0\Bee1478.exe
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\bin\Debug\net10.0\Bee1478.deps.json
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\bin\Debug\net10.0\Bee1478.runtimeconfig.json
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\bin\Debug\net10.0\Bee1478.dll
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\bin\Debug\net10.0\Bee1478.pdb
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\Bee1478.dll
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\refint\Bee1478.dll
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\Bee1478.pdb
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\Bee1478.genruntimeconfig.cache
+C:\Users\gidev\Documents\Programação\Projetos C#\Desafios Beecrowd\Iniciante\Bee1478\obj\Debug\net10.0\ref\Bee1478.dll
